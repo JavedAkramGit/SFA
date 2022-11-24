@@ -17,7 +17,7 @@ public class SFALogintest extends BaseClass{
 	
 	ReadExcel readexcel;
 	
-	@Test(dataProvider = "LoginDataProvider")
+	@Test(dataProvider = "LoginDataProvider" , retryAnalyzer = com.SFA.Utilities.RetryAnalayzer.class)
 	public void loginTest(String username, String password)
 	{
 		

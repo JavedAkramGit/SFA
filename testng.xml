@@ -5,6 +5,8 @@
 <listeners>
 
 <listener class-name ="com.SFA.Utilities.ExtentListenerClass"/>
+<listener class-name ="com.SFA.Utilities.TestTransformer"/>
+
 
 
 </listeners>
